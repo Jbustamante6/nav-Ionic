@@ -11,8 +11,8 @@ export class AjustesPage {
   constructor(public navCtrl: NavController, public navParams: NavParams) {
   }
 
-  ionViewDidLoad() {
-    console.log('ionViewDidLoad AjustesPage');
+  activarPrincipal(){
+    this.navCtrl.parent.select(0);
   }
 
 }
