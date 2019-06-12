@@ -20,7 +20,7 @@ import { Ajuste2Page, AjustesPage, ModalPage, PrincipalPage, Pagina2Page, Pagina
   ],
   imports: [
     BrowserModule,
-    IonicModule.forRoot(MyApp)
+    IonicModule.forRoot(MyApp, {backButtonText: ''})
   ],
   bootstrap: [IonicApp],
   entryComponents: [
